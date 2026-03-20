@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact – Canadian Fire Fandom</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="logo-title-group">
+      <img src="Assets/Images/Canadian Firefighter Logo for the Website (2).png" alt="Logo" class="logo">
+      <span class="site-title">Canadian Fire and Emergency Fandom</span>
+    </div>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html" class="nav-btn">Home</a>
+      <a href="firefighting-vehicles.html" class="nav-btn">Vehicles</a>
+      <a href="gear.html" class="nav-btn">Gear</a>
+      <a href="history.html" class="nav-btn">History</a>
+      <a href="firesafety.html" class="nav-btn">Safety</a>
+      <a href="about.html" class="nav-btn">About</a>
+      <a href="contact.html" class="nav-btn active">Contact</a>
+    </nav>
+
+    <div class="hamburger" onclick="document.getElementById('mainNav').classList.toggle('open')">☰</div>
+  </div>
+</header>
+
+<main class="container">
+  <h1 class="page-title">Contact</h1>
+  <p class="page-subtitle" style="text-align:center; margin-bottom:40px;">
+    Have questions or want to reach out? Fill out the form below and we’ll get back to you!
+  </p>
+
+  <form class="contact-form">
+    <div>
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Your name">
+    </div>
+
+    <div>
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="you@example.com">
+    </div>
+
+    <div>
+      <label for="message">Message</label>
+      <textarea id="message" placeholder="Write your message here"></textarea>
+    </div>
+
+    <button type="submit">Send Message</button>
+  </form>
+</main>
+
+</body>
+</html>
